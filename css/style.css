@@ -1,0 +1,154 @@
+
+:root {
+    --white: #ffffff;
+    --light-grey: #a3a3a3;
+    --dark-grey: #525353;
+    --violet: #655be1;
+    --dark-violet: #635bcf;
+    --black: #21232a;
+    --blueMain:#0054c2;
+    --greenMain:#02b74b;
+  }
+
+  body {
+   margin: 0;
+   text-align: center;
+  }
+
+  .container {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .backOne {
+    background-color: var(--blueMain);
+    text-align: center;    
+  }
+
+  .backOne h4{
+    color: var(--white);
+    font-size: 16pt;
+    text-shadow: 1px 1px 2px black;
+    padding-bottom: 50px;
+    font-family: "Reenie Beanie", cursive;
+  }
+
+  .backTwo {
+    background-color: var(--greenMain);
+  }
+
+  .backTwo h4{
+    color: var(--white);
+    font-size: 16pt;  
+    padding-bottom: 50px;
+    font-family: "Reenie Beanie", cursive;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-align: right;
+  }
+
+  .mainTittle {
+    font-size: 100pt;
+    line-height: 0.9;
+    color: #ffffff;
+    text-align: right;
+    width: 100%;
+    justify-content: center;
+    margin-left: -20px;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .secondTittle {
+    font-size: 40pt;
+    line-height: 0.9;
+    color: #ffffff;
+    text-align: right;   
+    justify-content: center;
+    margin-left: -20px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    max-width: 80%;
+    text-shadow: 1px 1px 2px black;
+    
+  }
+
+  .mainBtn{
+    font-family: "Poppins", sans-serif;
+    font-size: 18pt;
+    background-color: var(--greenMain);
+    color: #ffffff;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    width: 42%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px #21232a;
+    box-shadow: 3px 3px rgb(0, 61, 61);
+  }
+
+  .mainBtn:hover{
+   width: 40%;
+   background-color: rgb(31, 202, 31);
+  }
+
+  .mainBtn a {
+    text-decoration: none;
+    color: #ffffff;
+    
+  }
+  .menu {
+    text-align: left;
+    margin-top: -50px;
+
+  }
+
+  .menu li{
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: rgb(238, 192, 76);
+    list-style: none;
+    padding: 20px 50px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 14pt;
+    font-family: "Poppins", bold;
+    cursor: pointer;
+  }
+
+  .menu li:hover {
+    background-color: #0054c2;
+  }
+
+
+  .firm {
+    font-family: "Reenie Beanie", cursive;
+    color: rgb(238, 192, 76);
+    margin-top: -100px;
+    text-align: right;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .animation1 img{
+    width: 200px;
+    margin-top: 40px;
+    filter: grayscale(1);
+  }
+
+  .animation1 img:hover{
+    filter: grayscale(0);
+  }
+
+  .box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid gainsboro;
+    margin-left: 30px;
+    margin-top: -50px;
+  }
